@@ -1,0 +1,125 @@
+form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+form h3 .emoji{
+    font-size: 40px;
+    animation: waving-hand 2.5s infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+@keyframes waving-hand {
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(14deg);
+    }
+    20%{
+        transform: rotate(-8deg);
+    }
+    30%{
+        transform: rotate(14deg);
+    }
+    40%{
+        transform: rotate(-4.0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+form p{
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+form .inputs{
+    display: flex;
+    flex-direction: row;
+}
+form input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    margin-left: 30px;
+    background-color: transparent;
+    outline: none;
+    margin: 15px;
+    padding: 3px;
+    
+}
+form textarea{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 635px;
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 70px;
+    background-color: transparent;
+    outline: none;
+    margin: 15px;
+    padding: 3px;
+    line-height: 24px;
+    
+}
+form > input:focus {
+    outline: none;
+  }
+form > textarea:focus{
+      outline: none;
+  }
+form > button{
+      display: flex;
+      flex-direction: row;
+      text-transform: uppercase;
+      padding: 10px;
+      width: 120px;
+      border-radius: 2px;
+      outline: none;
+      border: 1px solid #9e59aa;
+      text-align: center;
+      cursor: pointer;
+      margin-top: 30px;
+  }
+  form > button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #9e59aa;
+    color: #fff;
+    padding: 10px;
+  }
+  form > button .icons{
+      margin-left: 3px;
+      margin-top: 1.2px;
+  }
+  @media only screen and (max-width: 768px){
+      form{
+          flex-direction: column;
+      }
+      form .inputs{
+          flex-direction: column;
+      }
+      form textarea{
+          width: 300px;
+          line-height: 18px;
+          padding-bottom:5px ;
+      }
+      form > h3{
+          font-size: 17px;
+         
+      }
+     
+  }

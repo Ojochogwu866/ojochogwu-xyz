@@ -1,0 +1,36 @@
+.footer__elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer__elements hr{
+    width: 550px;
+    margin-bottom: 50px;
+    display: flex;
+    border: 0px;
+    border-bottom: 1px solid #080133;
+}
+.footer__elements .icons{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -23px;
+    cursor: pointer;
+}
+.footer__elements .icons a{
+    justify-content: space-between;
+    color: #080133;
+    margin: 7px;
+    font-size: 23px;
+}
+.f-text{
+    text-align: center;
+    color: #080133;
+    font-size: 11px;
+    margin-top: -30px;
+    letter-spacing: 1px;
+}

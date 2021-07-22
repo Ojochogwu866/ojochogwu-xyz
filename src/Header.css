@@ -1,0 +1,40 @@
+.header .header__props{
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+}
+.header .header__logo{
+    position: absolute;
+    top: -50px;
+}
+.header .header__logo > img{
+    
+    margin-left: -50px;
+}
+.header .header__props p{
+    font-size: 100px;
+    font-weight: 1000;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    color: rgb(9, 10, 51);
+}
+
+.header .header__props h4{
+    font-size: 50px;
+    color: rgb(9, 10, 51);
+    padding-top: 10px;
+    line-height: 35px;
+    letter-spacing: 0.15px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px){
+    .header .header__props p{
+        font-size: 60px;
+    }
+    .header .header__props h4{
+        font-size: 33px;
+    }
+}
