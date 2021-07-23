@@ -1,6 +1,6 @@
 # Ojochogwu__
 
-This repository and everything contained therein is the codebase responsiblr for my personal portfolio.
+This repository and everything contained is the codebase responsible for my personal portfolio.
 
 
 ### `npm start`
