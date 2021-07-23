@@ -12,7 +12,6 @@ import { BsArrowRight,
 import { Link } from 'react-router-dom'
 import Aos from 'aos'
 import "aos/dist/aos.css";
-import Exp from './exp.svg'
 
 
 function Main() {
@@ -42,7 +41,7 @@ function Main() {
               <p>Interested in building scalable frontend solutions, products, by using my frontend 
               skills, and also providing possible enhancements to already
               existing products by applying my knowledge of UI design priciples, and UX engineering experience. </p>
-              <p  className="about-2">Primarily focused on web and mobile frontend related oppurtunities, I hope to work and learn from great teams,
+              <p  className="about-2">Primarily focused on web and mobile frontend related oppurtunities majorly in Javascript, I hope to work and learn from great teams,
                work with  them in implementing real-time products, concretely other than abstract
                formats. Skilled in HTML & CSS, Javascript(ES6+), Reactjs (Native), VueJs,
                NodeJs, bootstrap and others outlined on my resume.</p>
@@ -79,7 +78,6 @@ function Main() {
       gained expertise with. I am committed to build efficient product, package and project systems that are world
       class. </p>
      
-      <div className="exp-img"><img src={Exp} alt="" max-width={200}/></div> 
        </div>
    </div>
 
