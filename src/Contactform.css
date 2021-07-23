@@ -42,10 +42,11 @@ form h3 .emoji{
     }
 }
 form p{
-    font-size: 13px;
-    margin-bottom: 20px;
+    font-size: 85%;
+    margin-bottom: 40px;
     text-align: center;
     letter-spacing: 0.5px;
+    line-height: 20px;
 }
 form .inputs{
     display: flex;
@@ -66,7 +67,7 @@ form textarea{
     border: none;
     border-bottom: 1px solid black;
     width: 635px;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 30px;
     height: 70px;
     background-color: transparent;
@@ -94,6 +95,7 @@ form > button{
       text-align: center;
       cursor: pointer;
       margin-top: 30px;
+      margin-bottom: 50px;
   }
   form > button:hover{
     transition: 0.5s ease-in-out;
