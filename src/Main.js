@@ -2,13 +2,7 @@ import React, { useEffect } from 'react'
 import './main.css';
 import Header from './Header';
 import ContactForm from './ContactForm';
-import { BsArrowRight, 
-  BsCodeSlash, 
-  CgShapeZigzag, 
-  CgShapeTriangle, 
-  CgShapeRhombus, 
-  CgShapeCircle,
-  IoSettingsOutline } from 'react-icons/all';
+import { IoSettingsOutline, BsArrowRight } from 'react-icons/all';
 import { Link } from 'react-router-dom'
 import Aos from 'aos'
 import "aos/dist/aos.css";
@@ -27,15 +21,8 @@ function Main() {
         </div>
           
         <div className="main__about" data-aos="fade-up">
-        <h3>About <div className="shapes">
-       <span><BsCodeSlash/></span>
-       <span><CgShapeTriangle/></span>
-      <span><CgShapeZigzag/></span>
-     <span><CgShapeRhombus/></span>
-     <span><IoSettingsOutline/></span>
-      <span><CgShapeCircle/></span>
-       </div>
-        <hr/></h3>
+        <h3>About  <span><IoSettingsOutline/></span>
+        </h3>
         <div className="about1">
         <div className="details">
               <p>Interested in building scalable frontend solutions, products, by using my frontend 
@@ -69,14 +56,14 @@ function Main() {
       
       <div className="exp" data-aos="fade-up" data-aos-duration="500" id="experience">
       
-      <h3>Experience<hr/></h3>
+      <h3>Experience</h3>
       <div className="exp-det">
-      <p>Worked as a freelance frontend developer for about a year now, i have had a few colaborations 
+      <p>Worked as a freelance frontend developer on a few occasions - close to a year now, i have had a few colaborations 
       over time to work with other developers, and independent contracts as well. I focus on 
       scalability and put in maximum effort to build products with optimum user experience and meet up
       with expected output. I'm the guy with a few robust experiences in implementing the practices i have 
-      gained expertise with. I am committed to build efficient product, package and project systems that are world
-      class. </p>
+      gained expertise with. I am committed to building efficient product, package and projects
+      that are of best format. </p>
      
        </div>
    </div>
