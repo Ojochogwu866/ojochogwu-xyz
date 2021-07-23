@@ -18,53 +18,24 @@
 .main__about > h3{
     font-size: 20px;
     font-weight: bold;
+    padding-right: 10px;
+    padding-bottom: 30px;
 }
-.main__about h3 .shapes{
-    margin-top: -30px;
-    margin-left: 70px;
-    padding-bottom: 10px;
-}
-.main__about h3 .shapes span{
+
+.main__about h3  span{
     justify-content: space-between;
     margin: 7px;
     color: #9e59aa;
     font-size: 20px;
-    margin-top: -10px;
+    margin-top: 10px;
     display: inline-block;
 }
-.main__about h3 .shapes span:nth-child(1){
-    position: relative;    
-    -webkit-animation: spin 1s linear infinite;
-}
-.main__about h3 .shapes span:nth-child(1):hover{
-    -webkit-transform: rotate(360deg) translateZ(0);
-}
-.main__about h3 .shapes span:nth-child(2){
+
+.main__about h3  span{
     position: relative;
     -webkit-animation: spin 1s linear infinite;
 }
-.main__about h3 .shapes span:nth-child(2):hover{
-    -webkit-transform: rotate(360deg) translateZ(0);
-}
-.main__about h3 .shapes span:nth-child(3){
-    position: relative;
-    -webkit-animation: spin 1s linear infinite;
-}
-.main__about h3 .shapes span:nth-child(3):hover{
-    -webkit-transform: rotate(360deg) translateZ(0);
-}
-.main__about h3 .shapes span:nth-child(4){
-    position: relative;
-    -webkit-animation: spin 1s linear infinite;
-}
-.main__about h3 .shapes span:nth-child(4):hover{
-    -webkit-transform: rotate(360deg) translateZ(0);
-}
-.main__about h3 .shapes span:nth-child(5){
-    position: relative;
-    -webkit-animation: spin 1s linear infinite;
-}
-.main__about h3 .shapes span:nth-child(5):hover{
+.main__about h3  span:hover{
     -webkit-animation: spin 1s linear infinite;
     -moz-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
@@ -85,32 +56,18 @@
         -webkit-transform: rotate(360deg);
     }
 }
-.main__about h3 .shapes span:nth-child(6){
-    position: relative;
-    -moz-animation: spin 1s linear infinite;
-    animation: spin 1s linear infinite;
-    -webkit-animation: spin 1s linear infinite;
-}
-.main__about h3 .shapes span:nth-child(6):hover{
-    -webkit-transform: rotate(360deg) translateZ(0);
-}
-.main__about h3  hr{
-    margin-top: -8px;
-    margin-left: 70px;
-    width: 250px;
-    font-weight: 100;
-    border: 0px;
-    border-bottom: 1px solid #000;
-}
+
+
 .main__about .details{
     display: flex;
     flex-direction: row;
+    margin-top: -50px;
 }
 .main__about .details p{
     width: 250px;
     margin-top: 40px;
     line-height: 27px;
-    font-size: 16px;
+    font-size: 85%;
 }
 .main__about .details .about-2{
     margin-left: 70px;
@@ -125,18 +82,11 @@
     font-size: 20px;
     font-weight: bold;
 }
-.exp h3  hr{
-    margin-top: -8px;
-    margin-left: 120px;
-    width: 200px;
-    font-weight: 100;
-    border: 0px;
-    border-bottom: 1px solid #000;
-}
+
 .exp p{
     margin-top: 40px;
     line-height: 27px;
-    font-size: 16px;
+    font-size: 85%;
    
 }
 
@@ -254,22 +204,17 @@
         justify-content: space-around;
     }
     .main__about .details p{
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 85%;
+        line-height: 27px;
     }
     .main__about .details .about-2{
         margin-left: 20px;
         margin-top: 40px;
     }
-    .main__about h3  hr{
-        width: 200px;
-    }
-    .exp h3  hr{
-        width: 150px;
-    }
+ 
     .exp p{
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 85%;
+        line-height: 27px;
     }
     .main .projects{
         font-size: 14px;
@@ -294,6 +239,7 @@
         top: 10%;
         left: 20px;
     }
+    
 
   
 }
@@ -302,15 +248,17 @@
         padding-left: 60px;
         padding-right: 60px;
     }
+   
     .main__about .details p{
-        font-size: 14px;
+        font-size: 85%;
     }
+  
     .main__about .details .about-2{
-        margin-left: -100px;
+        margin-left: -140px;
         margin-top: 250px;
     }
     .main__about .about__img{
-        margin-left: 30px;
+        margin-left: -10px;
     }
     .main__about .about__img img{
         margin-left: 50px;
@@ -319,9 +267,12 @@
         width: 600px;
     }
    .exp p{
-       font-size: 14px;
+    font-size: 85%;
        
    }
+   .image__effect{
+    margin-left: 20px;
+}
  
 }
 @media only screen and (min-width: 1000px){
@@ -333,7 +284,7 @@
         margin-top: 40px;
     }
     .main__about .details {
-        margin-top: 70px;
+        margin-top: -20px;
     }
 
     .exp p{
