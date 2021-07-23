@@ -1,4 +1,0 @@
-Copyright (c) 2021, Ojochogwu Dickson  All rights reserved.
-
-Everything contained herein in this repository are intellectual property of Ojochogwu Dickson (unless otherwise stated), therefore redistribution, 
-modification and other functions cannot be carried out without authorized permission.
