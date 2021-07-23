@@ -12,7 +12,6 @@ import { BsArrowRight,
 import { Link } from 'react-router-dom'
 import Aos from 'aos'
 import "aos/dist/aos.css";
-import Exp from './exp.svg'
 
 
 function Main() {
@@ -79,7 +78,6 @@ function Main() {
       gained expertise with. I am committed to build efficient product, package and project systems that are world
       class. </p>
      
-      <div className="exp-img"><img src={Exp} alt="" max-width={200}/></div> 
        </div>
    </div>
 
