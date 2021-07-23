@@ -59,9 +59,10 @@
 }
 
 .accordion__text {
-  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 85%;
+  line-height: 27px;
   font-weight: 400px;
-  font-size: 13px;
   padding-bottom: 10px;
   justify-content: center;
   align-items: center;
