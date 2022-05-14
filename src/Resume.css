@@ -149,6 +149,8 @@ background-color: #fff;
 }
 .res{
     padding-left: 80px;
+    margin-top: -100px;
+    position: absolute;
 }
 .res span{
     display: flex;
@@ -188,6 +190,9 @@ background-color: #fff;
     }
     .resume_side p{
         padding-top: 20px;
+    }
+    .res{
+        margin-top: -30px;
     }
 }
 @media only screen and (max-width: 468px){
