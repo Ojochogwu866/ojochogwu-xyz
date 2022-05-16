@@ -14,6 +14,8 @@
     "animate.css": "^4.1.1",
     "animate.css-react": "^1.1.0",
     "aos": "^2.3.4",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
@@ -28,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-server": "node server/index.js",
+    "start-app": "npm run build && npm run start-server"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +51,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.3"
   }
 }
